@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tumblr Backup Config</title>
+  </head>
+  <body>
+    <b>Tumblr Backup Config</b><br>
+    <form action="{{ url_for('index') }}" method="post">
+      <label for="_follow">Add user to backup</label><br>
+      <input type="text" id="_follow" name="_follow" />
+      <input type="submit" value="Follow" />
+    </form>
+    <br />
+    <a href="https://cebtenzzre.github.io/tumblr-utils/usage/">Argument Guide</a>
+    <br /><br />
+    {{ blog_forms | safe }}
+    <script>
+      if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+      }
+    </script>
+  </body>
+</html>

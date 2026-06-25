@@ -1,7 +1,0 @@
-blogname
---option
---option2
-blogname2
---options3 argument
-blogname3
-blogname4

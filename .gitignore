@@ -2,12 +2,14 @@
 blogs/
 cookies.txt
 lastrun.txt
+data.db
 
-# Don't want to commit these
-blogs.txt
+# Credentials
 login.txt
+.env
 
 # Python stuff
 .python-version
 uv.lock
 .venv/
+__pycache__/
